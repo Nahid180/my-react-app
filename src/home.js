@@ -25,7 +25,7 @@ function Home() {
         $('.loader-body').fadeToggle(1000)
         setTimeout(() => {
           setLoaderstate(false);
-          document.title = "Home | The Muslim Coder";
+          document.title = "Home | React App";
         }, 1000);
 
       }
